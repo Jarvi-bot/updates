@@ -1,22 +1,23 @@
 {
-  "content": "Hey <@${owner.id}>! Jarvi is finally online in your server **${guild.name}** 🎉\nSorry for the delay — here’s everything new in version **v0.1.2**! 👇",
+  "content": "Hey Members ! Jarvi is finally **online** 🎉  <@&1394412821655064667>\nSorry for the delay — here’s everything new in version **v0.1.2**! 👇",
   "embeds": [
     {
       "title": "🚀 Jarvi Beta — v0.1.2 is LIVE!",
-      "description": "Apologies for the late launch — we know we promised a 10 June release 🙏\nBut... the website took over and stole our sleep 😪\n\nAnyway, **Jarvi is finally LIVE**, and wayyy better than before <a:Hurre:1395491574171046109>\n\n🛠️ **What’s New:**\n- 🐛 Fixed the *double response bug* (e.g. `{prefix}help` used to reply twice)  \n- 🧼 Squashed tons of command errors  \n- 🗃️ Switched to a brand-new database → All old data wiped  \n- ⚙️ New **default prefix** → `**.**` ➝ `**,**`  \n- 🎶 Introduced the all-new **Playlist System**\n\n💡 **Playlist ID** is auto-generated when you create one (like `abc123`, `3dfbkm`)\n\n🎧 **Playlist Commands (use `{prefix}`):**\n- `create-playlist <name>` – make a playlist  \n- `add-to-playlist <playlist_id> <song name/url>`  \n- `delete-playlist <playlist_id>`  \n- `edit-playlist <playlist_id> name|description <value>`  \n- `import-playlist <playlist id or yt/spotify URL>`  \n- `playlists` – view all your playlists  \n- `pplay <playlist_id>` – play your playlist  \n- `remove-song <playlist_id> <index>` – remove a track  \n- `playlist-songs <playlist_id>` – view playlist songs\n\n⚠️ Currently using a temporary **third-party music node**, so you *might* notice a tiny delay or quality drop. A high-performance node is coming soon!\n\n🌐 Visit the new [website](https://jarvibeta.xyz) and let us know your feedback!",
+      "description": "Apologies for the late launch — we know we promised a 10 June release 🙏\nBut... the website took over and stole our sleep 😪\n\nAnyway, **Jarvi is finally LIVE**, and wayyy better than before <a:Hurre:1395491574171046109>\n\n🛠️ **What’s New:**\n- 🐛 Fixed the *double response bug* (e.g. `{prefix}help` used to reply twice)  \n- 🧼 Squashed tons of command errors  \n- 🗃️ Switched to a brand-new database → All old data wiped  \n- ⚙️ New **default prefix** → **`.`** ➝ **`,`**\n- 🎶 Introduced the all-new **Playlist System**\n\n💡 **Playlist ID** is auto-generated when you create one (like `abc123`, `3dfbkm`)\n\n🎧 **Playlist Commands (use `{prefix}`):**\n- `create-playlist <name>` – make a playlist  \n- `add-to-playlist <playlist_id> <song name/url>`  \n- `delete-playlist <playlist_id>`  \n- `edit-playlist <playlist_id> name|description <value>`  \n- `import-playlist <playlist id or yt/spotify URL>`  \n- `playlists` – view all your playlists  \n- `pplay <playlist_id>` – play your playlist  \n- `remove-song <playlist_id> <index>` – remove a track  \n- `playlist-songs <playlist_id>` – view playlist songs\n\n⚠️ Currently using a temporary **third-party music node**, so you *might* notice a tiny delay or quality drop. A high-performance node is coming soon!\n\n🌐 Visit the new [website](https://jarvibeta.xyz) and let us know your feedback!",
       "url": "https://github.com/Jarvi-bot/updates/tree/main/v0.1.2",
-      "color": 9339573,
+      "color": 6503102,
       "footer": {
-        "text": "You're receiving this update because you're the owner of \"${guild.name}\"",
-        "icon_url": "${owner.avatar}"
+        "text": "Brought to you by KnarliX 💜",
+        "icon_url": "https://knarlix.github.io/images/KnarliX/pfp.png"
       },
       "thumbnail": {
-        "url": "${guild.icon}"
+        "url": "https://cdn.jarvi.rf.gd/logo/logolow.jpg"
       },
       "author": {
         "name": "Jarvi Beta 💜",
         "icon_url": "https://cdn.jarvi.rf.gd/logo/logolow.jpg"
-      }
+      },
+      "timestamp": "2025-07-17T21:20:00.000Z"
     }
   ],
   "components": [
@@ -48,12 +49,12 @@
         {
           "type": 2,
           "style": 5,
-          "label": "Support Server",
+          "label": "Changelog",
           "emoji": {
-            "name": "🛠️"
+            "name": "📑"
           },
-          "url": "https://discord.gg/SzKNuhqwcF",
-          "custom_id": "p_193089214588391426"
+          "url": "https://github.com/Jarvi-bot/updates/tree/main/v0.1.2",
+          "custom_id": "p_193115808677761026"
         }
       ]
     }
